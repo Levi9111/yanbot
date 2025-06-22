@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --width-base: 1527px;
+}
+
+@layer base {
+  body {
+    @apply bg-[#000000] text-[#E1DFDF] overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .w-base {
+    @apply max-w-[1527px] w-[98%] mx-auto;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
